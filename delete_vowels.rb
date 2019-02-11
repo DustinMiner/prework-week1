@@ -1,8 +1,7 @@
 def delete_vowels
   puts "Hello, type a word please."
   name = gets.chomp
-  string = 
-  puts string.delete('aeiou')  
+  puts name.delete ("aeiou")
 
 end
 

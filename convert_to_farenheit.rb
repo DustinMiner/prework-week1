@@ -1,9 +1,9 @@
-puts "Enter the Degree in c:"
-c = gets.chomp
+ 
+def convert_c_to_f (number)
+  conversion = number * 1.8 + 32
+  conversion
 
-def celsius_fahrenheit (f) 
-  return f = ( c * 9 / 5) + 32
 end
 
-answer = "The #{celsius_fahrenheit (f)} equivalent is"
-puts answer
+ puts convert_c_to_f (6)
+
