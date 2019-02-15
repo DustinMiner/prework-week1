@@ -11,5 +11,4 @@
 :hello_world
 
 my_hash = {first_name:  "Dustin", age: 30, last_name: "Miner"}
-puts my_hash[:first_name]
-puts my_hash[:age]
+puts my_hash
